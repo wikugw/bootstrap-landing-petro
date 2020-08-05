@@ -1,0 +1,168 @@
+*{
+    font-family: 'Open Sans';
+}
+
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav a {
+    color: #19AD51 !important;
+    font-weight: bold;
+}
+
+/* Jumbotron */
+
+.container h1{
+    font-size: 28px;
+    color: #636363;
+    font-weight: bold;
+}
+
+.container .row .col-12 .row a img{
+    height: 60px;
+}
+
+.par-grey {
+    font-size: 18px;
+    color: #636363;
+    font-weight: 600;
+    /* margin-top: 50px; */
+}
+
+.par-grey-small {
+    font-size: 16px;
+    color: #959595;
+    font-weight: 550;
+    /* margin-top: 50px; */
+    text-align: center;
+}
+
+.par-grey-small span {
+    font-style: italic;
+}
+
+.par-grey-smaller {
+    font-size: 14px;
+    color: #959595;
+    font-weight: 550;
+    text-align: center;
+}
+
+.par-grey-smaller a {
+    color: #19AD51;
+    font-weight: 600;
+}
+
+.row .col-lg img{
+    height: 200px;
+    object-fit: none;
+}
+
+.container h4 {
+    color: #636363;
+    font-weight: 600;
+}
+
+/* accordion */
+
+.accordion .card .card-header {
+    background-color:  #EEF6F1;
+}
+
+.accordion .card .card-header h5 {
+    color: #636363;;
+}
+
+.btn .fa-plus {
+    color: green;
+    border: none;
+}
+
+.colapsed:active {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+ }
+
+.btn .fa-minus {
+    color: green;
+    border: none;
+}
+
+.card-body .row .col-lg-6 .row .col-lg-8 h6 {
+    color: #19AD51;
+}
+
+.card-body .row .col-lg-6 .row .col-lg-8 p {
+    color: #959595;
+}
+/* accordion end */
+
+/* jumbotron bawah */
+.jumbotron-bawah .jumbotron {
+    background-image: url(../assets/app/media/img/ar/Rectangle_672.png);
+    background-size: cover;
+    position: relative;
+}
+
+.display-5 {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron-bawah .jumbotron .container .col-lg-8 .row .apple {
+    margin-top: 13px;
+}
+/* jumbotron bawah end*/
+
+/* footer */
+.footer {
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px (rgba(0, 0, 0, 0.7));
+    }
+
+    .nav-link {
+        text-transform: capitalize;
+        margin-right: 30px;
+    }
+
+    .justify-content-center {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: white !important;
+    }
+    .navbar-nav a {
+        text-align: center;
+        color: #19AD51 !important;
+        font-weight: bold;
+    }
+    .row .col-6 .row .col-lg .apple {
+        padding: 0;
+        margin-bottom: 0;
+    }
+}

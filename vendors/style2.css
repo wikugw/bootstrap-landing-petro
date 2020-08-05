@@ -1,0 +1,520 @@
+.btn.btn-success.mante {
+    padding: 10px 45px;
+    margin-bottom: 7px;
+}
+.btn.btn-success.mante-dua {
+    padding: 6px 48px;
+    float : right;
+    background-color: green;
+}
+.btn.btn-success.mante-tiga {
+  padding: 6px 48px;
+  background-color: green;
+}
+.btn.btn-success.mante-empat {
+  padding: 3px 30px;
+  background-color: green;
+  float: right;
+}
+.btn.btn-success.mante-lima {
+  padding: 6px 65px;
+  background-color: green;
+
+}
+.btn.btn-success.mante-lima .text {
+  margin-right: 10px;
+}
+.btn.btn-success.mante-enam {
+  padding : 20px 48px;
+  background-color: green;
+  border-radius: 0px;
+  border-color: green;
+}
+.btn.btn-success.mante-tujuh {
+  padding : 2px 2px;
+  background-color: grey;
+}
+.btn.btn-success.mante-delapan {
+  width:240px;
+  border-radius: 0px;
+}
+.btn.btn-success.mante-sembilan {
+  width: 25px;
+  border-radius: 0px;
+  padding : 2px 2px;
+  float: right;
+
+  color: black;
+  border-color: white;
+}
+.btn.btn-success.mante-sepuluh {
+  padding: 3px 10px;
+}
+.progress .progress-bar.bg-success.mante-satu {
+  border-radius:0px;
+}
+.tag {
+  padding: 5px 5px 5px 5px;
+}
+.text-bottom-card {
+  margin-top: 55px;
+  position: absolute;
+  text-align: center;
+  width: 90%;
+  font-size: 14px;
+  color: green;
+  font-weight: bold;
+}
+.text-on-card {
+  padding: 5px 5px 5px 5px;
+}
+.progress-bar.bg-success.mante-satu {
+  border-radius: 0px;
+}
+.mante.bottom {
+    text-align: center;
+}
+.mante.form-cari {
+    margin-bottom: 7px;
+}
+
+.mante.title-top {
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    color: green;
+}
+.flex-container-dua {
+  display: flex;
+}
+.flex-container-dua div {
+  padding: 2px;
+}
+.flex-container-tiga {
+  display: flex;
+  margin-top: 10px;
+}
+
+.flex-container-tiga div {
+  padding: 2px;
+}
+.flex-container-empat {
+  display: flex;
+}
+.flex-container-empat div {
+  padding: 2px;
+}
+
+
+
+.flex-container-satu {
+  display: flex;
+}
+.cover-silabus{
+  position: absolute;
+  display: inline-block;
+}
+.cover-silabus .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 105%;
+  text-align: center;
+  width: 100%;
+}
+.flex-container-satu div {
+  padding: 2px;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container div {
+  padding: 2px;
+}
+.mante.share {
+  margin-top: 10px;
+  padding: 4px 70px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+.left-text {
+  z-index: 4;
+  position: absolute;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.left-text a {
+  color: green;
+}
+.mante.title {
+  font-size:16px ;
+  font-weight: 500;
+  padding-bottom: -10px;
+  position: relative;
+}
+.mante.keywords {
+  padding: 2px 15px;
+  margin : 1px 1px 1px 1px;
+  border-radius: 2px;
+  border: 1px solid white;
+}
+.mante.status {
+  padding: 1px 10px;
+  margin : 1px 1px 1px 1px;
+  border-radius: 5px;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+}
+form.form-cari input[type=text] {
+  padding: 3px;
+  font-size: 15px;
+  border: 1px solid white;
+  float: left;
+  width: 80%;
+  background: white;
+}
+form.form-cari {
+  margin-bottom: 45px;
+}
+form.form-cari button {
+  float: left;
+  width: 15%;
+  padding: 6.5px;
+  background: white;
+  color: black;
+  font-size: 17px;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+form.form-cari-dua input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid white;
+  float: left;
+  width: 80%;
+  background: white;
+}
+form.form-cari-dua {
+  margin-bottom: 50px;
+}
+form.form-cari-dua button {
+  float: left;
+  width: 20%;
+  padding: 6.5px;
+  background: white;
+  color: black;
+  font-size: 17px;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+form.form-cari-tiga input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid white;
+  float: left;
+  width: 80%;
+  background: white;
+}
+form.form-cari-tiga {
+  margin-bottom: 10px;
+}
+form.form-cari-tiga button {
+  float: left;
+  width: 20%;
+  padding: 6.5px;
+  background: white;
+  color: black;
+  font-size: 17px;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.gambar-detail{
+  height: 250px;
+  width: 180px;
+  margin-top: 15px;
+}
+
+.tempat-detail{
+  height: 210px;
+}
+
+.kata-detail{
+  margin-bottom: 0px;
+}
+
+.judul-detail{
+  margin-left: -30px;
+  margin-top: 15px;
+}
+
+.pembuat-detail{
+  margin-left: -30px;
+}
+
+.kategori-detail{
+  margin-left: -30px;
+}
+
+.penjelasan-detail{
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
+.keyword-detail{
+  margin-top: 15px;
+}
+
+.chapters{
+  padding: 10px 10px 30px 10px; margin-bottom: 15px;
+}
+
+.pinggir-detail{
+  padding: 10px 70px 10px 250px;
+}
+
+.dropdown-menu.animate-menu.slideIn-menu.pilihan-detail{
+  margin-left: 270px;
+}
+
+.materi-gambar{
+  width: 200px;
+  height: 200px;
+}
+
+.deks-materi{
+  margin-left: -20px;
+}
+
+.btn.btn-success.mante-sepuluh {
+  width: 25px;
+  border-radius: 0px;
+  padding : 2px 2px;
+  float: right;
+  margin-left: 310px;
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 2px;
+  background-color: white;
+  border-color: white;
+}
+
+.btn.btn-success.menuju-diskusi{
+  float: right;
+  background-color: green;
+  border-color: green;
+  margin-top: -50px;
+}
+
+.ppt{
+  width:680px;
+  height:400px;
+}
+
+.logo-tengah{
+
+  width: 70px;
+  height: 70px;
+}
+.enterprise{
+  height: 150px;
+  width: 250px;
+  object-fit: cover;
+  margin-right: 5px;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.landing-bawah{
+  height: 35px;
+  width: 200px;
+  /* margin-top: 60px;
+  margin-bottom: -50px; */
+}
+
+.tutup {
+  color: #C01D2E;
+  font-size: 30px;
+}
+
+.modal-judul {
+  color: #636363;
+}
+
+.modal-judul p {
+  font-weight: bold;
+}
+
+.dalam-modal {
+  border: 2px solid #0EA10B;
+  border-radius: 5px;
+}
+
+.tigaenamkosong {
+  display:inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+a p{
+  color: #0EA10B;
+  text-decoration: none; /* no underline */
+}
+
+a:hover {
+  color:#0EA10B;
+  text-decoration: none !important;
+}
+
+@media (min-width: 992px) {
+    .animate-menu {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  @keyframes slideIn-menu {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes slideIn-menu {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+
+  @media (max-width : 576px) {
+    .btn.btn-success.mante-lima {
+      padding: 6px 210px;
+      background-color: green;
+
+    }
+
+    .gambar-detail{
+      height: 250px;
+      width: 70%;
+    }
+
+    .tempat-detail{
+      height: auto;
+    }
+    .judul-detail{
+      text-align: center;
+    }
+    .pembuat-detail{
+      text-align: center;
+    }
+    .kategori-detail{
+      margin-left: 70px;
+    }
+
+    .penjelasan-detail{
+      margin-top: 10px;
+      margin-left: 0px;
+      margin-bottom: 0px;
+    }
+    .keyword-detail{
+      margin-left: 20px;
+    }
+    .pinggir-detail{
+      padding: 0px 0px 0px 0px;
+    }
+    .dropdown-menu.animate-menu.slideIn-menu.pilihan-detail{
+      margin-left: 50px;
+    }
+
+    .btn.btn-success.mante-sepuluh {
+      width: 25px;
+      border-radius: 0px;
+      padding : 2px 2px;
+      background-color: white;
+      border-color: white;
+      margin-top: 10px;
+      margin-left: -40px;
+    }
+
+    .btn.btn-success.angka-petunjuk{
+      margin-left: 120px;
+      margin-bottom: 10px;
+    }
+
+    .deks-materi{
+      margin-left: 0px;
+    }
+
+    .materi-gambar{
+      width: 200px;
+      height: 200px;
+      margin-left: 40px;
+    }
+
+    .btn.btn-success.menuju-diskusi{
+      float: left;
+      background-color: green;
+      border-color: green;
+      margin-top: 0px;
+    }
+    .ppt{
+      width:330px;
+      height:250px;
+    }
+    .logo-tengah{
+      width: 50px;
+      height: 50px;
+    }
+    .enterprise{
+      height: 150px;
+      width: 250px;
+      object-fit: cover;
+      margin-bottom: 5px;
+      border-radius: 10px;
+    }
+
+  }
+  .slideIn-menu {
+    -webkit-animation-name: slideIn-menu;
+    animation-name: slideIn-menu;
+  }
+  .navbar.navbar-light.mante {
+    font-size: 15px;
+
+  }
+
+  .nav-item.nav-link.parent {
+    display:inline-block;
+    border-bottom:1px solid grey;
+    padding-bottom:1px;
+  }
+  .nav-item.dropdown.parent {
+    display:inline-block;
+    border-bottom:1px solid grey;
+    padding-bottom:1px;
+  }

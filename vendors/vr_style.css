@@ -1,0 +1,339 @@
+*{
+    font-family: 'Open Sans';
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-nav a {
+    text-shadow: 1px 1px 1px (rgba(0, 0, 0, 1)) !important;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+
+
+/* Jumbotron */
+.jumbotron-atas .jumbotron {
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    object-fit: fill;
+}
+
+
+.jumbotron-atas .jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron-atas .jumbotron video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /*  object-fit is not supported on IE  */
+    object-fit: cover;
+}
+
+.jumbotron-atas .jumbotron .container {
+    z-index: 2;
+    position: relative;
+}
+
+.jumbotron-atas .jumbotron .container h2 {
+    font-weight: 900;
+    text-shadow: 1px 1px 1px (rgba(0, 0, 0, 0.9));
+}
+
+
+
+
+/* .jumbotron-atas .jumbotron .container {
+    position: relative;
+    z-index: 1;
+} */
+
+.jumbotron-atas .jumbotron img {
+    margin-top: 100px;
+}
+
+.jumbotron-atas .jumbotron .display-4 {
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.jumbotron-atas .jumbotron p {
+    color: white;
+}
+
+.jumbotron-atas .jumbotron .row .col-6 .row .col-lg {
+    margin-top: 0;
+    margin: 0;
+}
+
+.jumbotron-atas .jumbotron .row .col-6 .row .col-lg a img{
+    margin-top: 0 !important;
+    height: 100px;
+}
+
+.row .col-6 .row .col-lg .apple {
+    padding-top: -10px;
+}
+
+#iphoneX {
+    height: 321px;
+    width: 646px;
+    margin-top: -90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.par-grey {
+    font-size: 18px;
+    color: #636363;
+    font-weight: 600;
+    /* margin-top: 50px; */
+}
+
+.par-grey-small {
+    font-size: 16px;
+    color: #959595;
+    font-weight: 550;
+    /* margin-top: 50px; */
+    text-align: center;
+}
+
+.par-grey-small span {
+    font-style: italic;
+}
+
+.par-grey-smaller {
+    font-size: 14px;
+    color: #959595;
+    font-weight: 550;
+    /* margin-top: 50px; */
+    text-align: center;
+}
+
+.par-grey-smaller span {
+    color: #19AD51;
+    font-weight: 600;
+}
+
+.jumbotron-tengah .jumbotron {
+    background-image: url(../assets/app/media/img/vr/Rectangle_673.png);
+    background-size: cover;
+    height: 300px;
+}
+
+.jumbotron-tengah .jumbotron .container .row .col-lg-6 img{
+    position: relative;
+    height: 290px;
+    margin-top: -54px;
+}
+
+.jumbotron-tengah .jumbotron .container .row .col-lg-6 h2{
+    color: white;
+    font-weight: bold;
+}
+
+.row .col-lg img{
+    height: 200px;
+    object-fit: none;
+}
+
+/* pelajari  semua kemungkinan*/
+
+.row .col-lg-6 h5 {
+    color: #636363;
+}
+
+.row .col-lg-6 p {
+    color: #959595;
+}
+/* pelajari semua kemungkinan end */
+
+.container h4 {
+    color: #636363;
+    font-weight: 600;
+}
+
+.badge {
+    background: rgba(14, 161, 11, 0.2);
+    color: #19AD51;
+}
+
+.btn .fa-plus {
+    color: green;
+    border: none;
+}
+
+.colapsed:active {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+ }
+
+.btn .fa-minus {
+    color: green;
+    border: none;
+}
+
+.card-body .row .col-lg-6 .row .col-lg-8 h6 {
+    color: #19AD51;
+}
+
+.card-body .row .col-lg-6 .row .col-lg-8 p {
+    color: #959595;
+}
+/* accordion end */
+
+/* jumbotron bawah */
+.jumbotron-bawah .jumbotron {
+    background-image: url(../assets/app/media/img/ar/Rectangle_672.png);
+    background-size: cover;
+    position: relative;
+}
+
+.display-5 {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron-bawah .jumbotron {
+    height: 290px;
+}
+
+.jumbotron-bawah .jumbotron .container .row .col-lg-4 img {
+    height: 290px;
+    margin-top: -64px;
+}
+/* jumbotron bawah end*/
+
+/* footer */
+.footer {
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px (rgba(0, 0, 0, 0.7));
+    }
+
+    .nav-link {
+        text-transform: capitalize;
+        margin-right: 30px;
+    }
+
+    .jumbotron-atas .jumbotron {
+        margin-top: -85px;
+        height: 100vh;
+    }
+
+    .jumbotron-atas .jumbotron .display-4 {
+        font-size: 36px;
+    }
+
+    .justify-content-center {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: #19AD51 !important;
+    }
+    .navbar-nav a {
+        text-align: center;
+        color: white !important;
+        font-weight: bold;
+    }
+    .row .col-6 .row .col-lg .apple {
+        padding: 0;
+        margin-bottom: 0;
+    }
+    #iphoneX {
+        height: 241px;
+        margin-top: -40px;
+    }
+
+    .jumbotron-tengah .jumbotron {
+        height: auto;
+    }
+
+    .jumbotron-tengah .jumbotron .container{
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .jumbotron-tengah .jumbotron .container .row{
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .jumbotron-tengah .jumbotron .container .row .col-lg-6{
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .jumbotron-tengah .jumbotron .container .row .col-lg-6 img{
+        position: relative;
+        height: 290px;
+        margin-top: auto;
+        margin-bottom: -32px;
+        bottom: 0;
+    }
+
+    .jumbotron-bawah .jumbotron {
+        height: auto;
+    }
+
+    .jumbotron-bawah .jumbotron .container .row .col-lg-4 img {
+        height: 290px;
+        margin-top: 0;
+        margin-bottom: -32px;
+    }
+}
+
+@media (max-width: 576px) {
+    #iphoneX {
+        height: 141px;
+        margin-top: -70px;
+    }
+
+}

@@ -1,0 +1,77 @@
+
+  .avatar {
+    border: 0.3rem solid rgba(#fff, 0.3);
+    margin-top: -6rem;
+    margin-bottom: 1rem;
+    max-width: 9rem;
+  }
+  .card-img-top {
+      height: 10rem;
+      background-colour : green;
+  }
+ .img-report {
+ height: 8rem;
+}
+.card-text { 
+ 
+}
+.recent-img {
+height :3rem;
+}
+  .nav.nav-new {
+      position: relative;
+      overflow: hidden;
+      padding-top:20px;
+      padding : 0 auto;
+      display: block;
+      
+  }
+  .nav.nav-new a {
+    float:none;
+    color:green;
+    text-align: center;
+    padding:5px 7px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight : 900;
+    display: inline-block;
+     text-decoration-line: underline;
+    text-decoration-color: grey;
+   color: grey;
+  }
+  .nav.nav-new a:hover {
+      color: black;
+  }
+  .nav.nav-new a.active {
+    text-decoration-line:underline;
+    text-decoration-color: green;
+    text-decoration-style: solid;  
+    color: green;
+}
+  .bread-top {
+      text-align: center;
+      padding-bottom: 10px;
+      color: green;
+  }
+  .button-profile a.btn{
+        padding:10px 45px;
+        margin-top: 10px;
+  }
+  .recent {
+      margin-top: 10px;
+  }
+ .button-course a.btn {
+  background-color: green;
+    padding:4px 40px;
+}
+.new a.btn {
+background-color : #228B22;
+color : white;
+}  
+.head-title {
+ color : green;
+
+}
+.fgd-result {
+ padding : 5px 5px 5px 5px;
+}
